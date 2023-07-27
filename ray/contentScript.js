@@ -21,6 +21,7 @@ const displayDontThinkText = () => {
 const displayDontThink = () => {
   if (isSubstackOrWordPress() && isInEditor()) {
     displayDontThinkText();
+    console.log('ran the function to add it')
   }
 };
 
