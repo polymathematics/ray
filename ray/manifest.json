@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Ray",
+    "version": "1.0",
+    "description": "Adds 'Don't Think' to the top of Substack and WordPress post editors.",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://substack.com/*",
+          "https://wordpress.org/*",
+          "https://*.wordpress.com/*",
+          "https://*.substack.com/*"
+        ],
+        "js": ["contentScript.js"]
+      }
+    ],
+    "browser_action": {
+      
+    }
+  }
+  
