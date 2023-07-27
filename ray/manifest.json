@@ -12,9 +12,11 @@
           "https://substack.com/*",
           "https://wordpress.org/*",
           "https://*.wordpress.com/*",
+          "https://wordpress.com/*",
           "https://*.substack.com/*"
         ],
-        "js": ["contentScript.js"]
+        "js": ["contentScript.js"],
+        "css": ["style.css"]
       }
     ],
     "browser_action": {
